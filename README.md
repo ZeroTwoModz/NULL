@@ -1,5 +1,5 @@
 # Installation
-Go to https://github.com/ZeroTwoModz/NULL/releases/tag/0.0.1 and download file with name "null"
+Go to https://github.com/ZeroTwoModz/NULL/releases/tag/0.0.1 and download file with the name "null"
 
 # HOW TO RUN IT ON LINUX
 
@@ -11,7 +11,7 @@ null -r <req_per_sec> -t <threads> <ip>
 
 High threads = High CPU
 
-# READ THIS BEFORE USING TIHS TOOL
+# READ THIS BEFORE USING THIS TOOL
 
 NULL was created for educational purposes only ;)
 
