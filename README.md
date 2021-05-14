@@ -10,6 +10,9 @@ or you can just git clone this repo
 # HOW TO RUN IT ON WINDOWS
 Open exe file
 
+# INTERNET IS NOT GETTING ATTACKED WHY?
+Because you don't have enough MBPS so i recommend try running it on vps :)
+
 # READ THIS BEFORE USING THIS TOOL
 
 NULL was created for educational purposes only ;)
