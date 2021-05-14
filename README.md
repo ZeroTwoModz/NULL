@@ -1,24 +1,14 @@
 # Installation
-Go to https://github.com/ZeroTwoModz/NULL/releases/tag/0.0.1 and download file with the name "null"
+Go to https://github.com/ZeroTwoModz/NULL/releases/tag/0.0.2 and download "null_windows" if you are on windows and if you are on linux download "null_linux"
+
+or you can just git clone this repo
 
 # HOW TO RUN IT ON LINUX
 
 ./null 
 
-null -r <req_per_sec> -t <threads> <ip>
-
-# HOW TO RUN IT ON WINDOWS (REQUIRES RESTART (One-time))
-1) Go in `Control Panel > Programs > Turn Windows Features On Or Off` then find `“Windows Subsystem for Linux”` and enable it after that click "OK" and click Restart now
-
-2) After restart go in microsoft store and install ubuntu
-
-3) open ubuntu and setup it
-
-4) now follow linux instructions ;)
-
-# Information
-
-High threads = High CPU
+# HOW TO RUN IT ON WINDOWS
+Open exe file
 
 # READ THIS BEFORE USING THIS TOOL
 
