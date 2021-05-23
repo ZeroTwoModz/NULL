@@ -18,3 +18,5 @@ Because you don't have enough MBPS so i recommend try running it on vps :)
 NULL was created for educational purposes only ;)
 
 IF SOMETHING BAD HAPPENS TO YOU FOR USING THIS TOOL I WILL NOT HELP YOU WITH ANYTHING BECAUSE I CANNOT CONTROL WHAT YOU DO WITH THIS TOOL OR WHAT WILL IT CAUSE
+
+Doesn't work on 32 bit because I compiled it on 64 bit :D (Windows)
